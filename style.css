@@ -7,8 +7,9 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {
-    right: 25px;
+body .container{
+    margin-left: 5px;
+    margin-right: 15px;
 }
 
 .image-phone img {
@@ -21,15 +22,14 @@ body {
 
 main {
     position: absolute;
+    width: 360px;
     height: 664px;
+    top: 0px;
     left: 0%;
     right: 0%;
-    top: 0px;
-    width: 360px;
 }
 
 main img {
-    /* position: absolute; */
     width: 245px;
     height: 86px;
     left: 72px;
@@ -338,10 +338,21 @@ footer .info-2 p {
 
     footer .info-2 p {
         margin-right: 0px;
-    }
-
-    
-
+    } 
 
 }
 
+@media (min-device-width: 750px) and (max-device-width: 991px){
+    .container {
+        margin-left: 100%;
+        margin-top: 20%;
+        left: 230px;
+    }
+}
+/* @media (width: 820px) {
+    .container {
+        margin-left: 100%;
+        margin-top: 20%;
+        left: 230px;
+    }
+} */
